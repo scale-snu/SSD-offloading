@@ -1,0 +1,3 @@
+[submodule "LLMSimulator"]
+	path = LLMSimulator
+	url = https://github.com/scale-snu/LLMSimulator.git
