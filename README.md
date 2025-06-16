@@ -1,4 +1,4 @@
-# SSD_offloading
+# SSD-offloading
 
 ## Overview
 This modeling tool builds upon the [simulator](https://github.com/scale-snu/LLMSimulator.git) introduced in the MICRO 2024 paper “Duplex: A Device for Large Language Models with Mixture of Experts, Grouped Query Attention, and Continuous Batching.” The modeling tool supports breaking down the energy consumption and token generation latency of LLM inference on a per-operation basis (e.g., QKV generation, attention, output projection). For Mixture-of-Experts (MoE) models, the breakdown can be detailed based on whether the gated expert weights are offloaded to CPU-memory or SSD.
@@ -18,8 +18,8 @@ Key features:
 ### Build
 1. Clone the repository
 ```bash
-   $ git clone https://github.com/scale-snu/SSD_offloading.git
-   $ cd SSD_offloading
+   $ git clone https://github.com/scale-snu/SSD-offloading.git
+   $ cd SSD-offloading
    $ git submodule update --init --recursive
 ```
 2. Apply patches
